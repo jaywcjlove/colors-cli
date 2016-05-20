@@ -6,6 +6,9 @@
   "directories": {
     "test": "test"
   },
+  "bin": {
+    "colors": "./bin/colors"
+  },
   "repository": {
       "type": "git",
       "url": "https://github.com/jaywcjlove/colors-cli.git"
