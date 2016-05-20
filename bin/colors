@@ -1,0 +1,56 @@
+#!/usr/bin/env node
+var colors = require('../');
+var args = process.argv.slice(2);
+
+
+var styles = '';
+var scripts = '';
+var help = false;
+var log = console.log;
+
+colors.toxic();
+
+args.filter(function (arg) {
+    if (arg === '-h' || arg === '--help') {
+        help = true;
+    }else if(/\-\-/.test(arg)){
+        styles = arg.replace('--','').split(',').join('.');
+    }else{
+        scripts += eval('"'+arg +'".'+ styles+';');
+    }
+})
+
+if(help){
+    log('')
+    log(' Usage: colors')
+    log('')
+    log(' Options:')
+    log('')
+
+    Object.keys(colors.color).forEach(function(key){
+        log('   --' + key + '  => ' + eval('"'+key+'".'+key))
+    });
+    log('')
+    log(' Examples:')
+    log('')
+    log('   colors --red "\\nhello world" --bold,underline,yellow "wcj"')
+    log('   colors --green,bold "\\nhello world"')
+    log('')
+    
+}else{
+    log(scripts);
+}
+
+
+// var fs = require('fs');
+// var read = fs.createReadStream;
+// var write = fs.createWriteStream;
+// var dest = args[2] ? write(args[2]) : process.stdout
+// var source = args[1] ? read(args[1]) : process.stdin
+
+
+// var str = source.on('end', function (es,ss) {
+//     dest.write('---12:',es,str)
+// }).pipe(dest, {end: false})
+
+// log("args:",str)
