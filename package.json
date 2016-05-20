@@ -1,0 +1,20 @@
+{
+  "name": "colors-cli",
+  "version": "1.0.0",
+  "description": "Terminal string styling done right",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/color.test.js"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "colors-cli",
+    "terminal"
+  ],
+  "author": "kenny wang <wowohoo@qq.com>",
+  "license": "MIT"
+}
