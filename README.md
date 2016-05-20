@@ -4,9 +4,35 @@
 Install with npm:
 
 ```bash
-npm install bannerjs --save
+npm install colors-cli --save-dev
 ```
 
+# Color
+
+<table>
+  <tr>
+    <td style="background:black;">black</td>
+    <td style="background:red;">red</td>
+    <td style="background:green;">green</td>
+    <td style="background:yellow;">yellow</td>
+    <td style="background:blue;">blue</td>
+    <td style="background:magenta;">magenta</td>
+    <td style="background:cyan;">cyan</td>
+    <td style="background:white;">white</td>
+    <td style="background:aqua;">aqua</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold;">bold</td>
+    <td style="">faint</td>
+    <td style="font-style:italic;">italic</td>
+    <td style="text-decoration:underline;">underline</td>
+    <td style="text-decoration: blink;">blink</td>
+    <td style="text-decoration:overline;">overline</td>
+    <td style="background:inverse;">inverse</td>
+    <td style="background:conceal;">conceal</td>
+    <td style="background:strike;">strike</td>
+  </tr>
+</table>
 
 ## Basic usage:
 
@@ -19,6 +45,7 @@ console.log( color.red('hello') )
 ```js
 require('colors-cli/toxic')
 console.log( 'hello'.green );
+console.log( 'hello'.green.black_bg.underline );
 ```
 
 ```bash
