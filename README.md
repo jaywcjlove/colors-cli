@@ -21,6 +21,11 @@ npm install colors-cli --save-dev
     <td style="background:white;">white</td>
     <td style="background:aqua;">aqua</td>
   </tr>
+</table>
+
+# Style
+
+<table>
   <tr>
     <td style="font-weight:bold;">bold</td>
     <td style="">faint</td>
