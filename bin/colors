@@ -22,6 +22,7 @@ args.filter(function (arg) {
 
 if(help){
     log('')
+    log('\33[2J') //清屏
     log(' Usage: colors')
     log('')
     log(' Options:')
@@ -30,6 +31,7 @@ if(help){
     Object.keys(colors.color).forEach(function(key){
         log('   --' + key + '  => ' + eval('"'+key+'".'+key))
     });
+
     log('')
     log(' Examples:')
     log('')
