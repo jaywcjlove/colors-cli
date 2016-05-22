@@ -1,5 +1,6 @@
 # colors-cli
 
+[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli)
 
 Terminal string styling done right.
 
@@ -75,6 +76,17 @@ console.log( color.red.bold.underline('hello') )
 require('colors-cli/toxic')
 console.log( 'hello'.green );
 console.log( 'hello'.green.black_b.underline );
+```
+
+Best way is to predefine needed stylings and then use it:
+
+```js
+var error = clc.red.bold;
+var warn = clc.yellow;
+var notice = clc.blue;
+console.log(error('Error!'));
+console.log(warn('Warning'));
+console.log(notice('Notice'));
 ```
 
 ### Use the command line
