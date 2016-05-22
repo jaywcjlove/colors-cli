@@ -19,14 +19,14 @@ npm install colors-cli --save-dev
 <table>
   <thead><th>Foreground</th><th>Background</th><th></th></thead>
   <tbody>
-    <tr><td>black</td><td>black_bg</td><td><img src="./img/black.png" width="20" height="20" /></td></tr>
-    <tr><td>red</td><td>red_bg</td><td><img src="./img/red.png" width="20" height="20" /></td></tr>
-    <tr><td>green</td><td>green_bg</td><td><img src="./img/green.png" width="20" height="20" /></td></tr>
-    <tr><td>yellow</td><td>yellow_bg</td><td><img src="./img/yellow.png" width="20" height="20" /></td></tr>
-    <tr><td>blue</td><td>blue_bg</td><td><img src="./img/blue.png" width="20" height="20" /></td></tr>
-    <tr><td>magenta</td><td>magenta_bg</td><td><img src="./img/magenta.png" width="20" height="20" /></td></tr>
-    <tr><td>cyan</td><td>cyan_bg</td><td><img src="./img/cyan.png" width="20" height="20" /></td></tr>
-    <tr><td>white</td><td>white_bg</td><td><img src="./img/white.png" width="20" height="20" /></td></tr>
+    <tr><td>black</td><td>black_b</td><td><img src="./img/black.png" width="20" height="20" /></td></tr>
+    <tr><td>red</td><td>red_b</td><td><img src="./img/red.png" width="20" height="20" /></td></tr>
+    <tr><td>green</td><td>green_b</td><td><img src="./img/green.png" width="20" height="20" /></td></tr>
+    <tr><td>yellow</td><td>yellow_b</td><td><img src="./img/yellow.png" width="20" height="20" /></td></tr>
+    <tr><td>blue</td><td>blue_b</td><td><img src="./img/blue.png" width="20" height="20" /></td></tr>
+    <tr><td>magenta</td><td>magenta_b</td><td><img src="./img/magenta.png" width="20" height="20" /></td></tr>
+    <tr><td>cyan</td><td>cyan_b</td><td><img src="./img/cyan.png" width="20" height="20" /></td></tr>
+    <tr><td>white</td><td>white_b</td><td><img src="./img/white.png" width="20" height="20" /></td></tr>
   </tbody>
 </table>
 
@@ -50,7 +50,7 @@ console.log( color.red.bold.underline('hello') )
 ```js
 require('colors-cli/toxic')
 console.log( 'hello'.green );
-console.log( 'hello'.green.black_bg.underline );
+console.log( 'hello'.green.black_b.underline );
 ```
 
 ### Use the command line
@@ -61,23 +61,23 @@ console.log( 'hello'.green.black_bg.underline );
  Options:
 
    --black  => black
-   --black_bg  => black_bg
+   --black_b  => black_b
    --red  => red
-   --red_bg  => red_bg
+   --red_b  => red_b
    --green  => green
-   --green_bg  => green_bg
+   --green_b  => green_b
    --yellow  => yellow
-   --yellow_bg  => yellow_bg
+   --yellow_b  => yellow_b
    --blue  => blue
-   --blue_bg  => blue_bg
+   --blue_b  => blue_b
    --magenta  => magenta
-   --magenta_bg  => magenta_bg
+   --magenta_b  => magenta_b
    --cyan  => cyan
-   --cyan_bg  => cyan_bg
+   --cyan_b  => cyan_b
    --white  => white
-   --white_bg  => white_bg
+   --white_b  => white_b
    --aqua  => aqua
-   --aqua_bg  => aqua_bg
+   --aqua_b  => aqua_b
    --bold  => bold
    --faint  => faint
    --italic  => italic
