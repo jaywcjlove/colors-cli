@@ -17,32 +17,40 @@ npm install colors-cli --save-dev
 # Colors
 
 <table>
-  <thead><th>Foreground</th><th>Background</th><th></th></thead>
+  <thead><th>Foreground</th><th>Background</th><th></th><th>Bright Foreground</th><th>Bright Background</th><th></th></thead>
   <tbody>
-    <tr><td>black</td><td>black_b</td><td><img src="./img/black.png" width="20" height="20" /></td></tr>
-    <tr><td>red</td><td>red_b</td><td><img src="./img/red.png" width="20" height="20" /></td></tr>
-    <tr><td>green</td><td>green_b</td><td><img src="./img/green.png" width="20" height="20" /></td></tr>
-    <tr><td>yellow</td><td>yellow_b</td><td><img src="./img/yellow.png" width="20" height="20" /></td></tr>
-    <tr><td>blue</td><td>blue_b</td><td><img src="./img/blue.png" width="20" height="20" /></td></tr>
-    <tr><td>magenta</td><td>magenta_b</td><td><img src="./img/magenta.png" width="20" height="20" /></td></tr>
-    <tr><td>cyan</td><td>cyan_b</td><td><img src="./img/cyan.png" width="20" height="20" /></td></tr>
-    <tr><td>white</td><td>white_b</td><td><img src="./img/white.png" width="20" height="20" /></td></tr>
-  </tbody>
-</table>
-
-# Bright variants
-
-<table>
-  <thead><th>Foreground</th><th>Background</th><th></th></thead>
-  <tbody>
-    <tr><td>black_bt</td><td>black_bbt</td><td><img src="./img/black_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>red_bt</td><td>red_bbt</td><td><img src="./img/red_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>green_bt</td><td>green_bbt</td><td><img src="./img/green_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>yellow_bt</td><td>yellow_bbt</td><td><img src="./img/yellow_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>blue_bt</td><td>blue_bbt</td><td><img src="./img/blue_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>magenta_bt</td><td>magenta_bbt</td><td><img src="./img/magenta_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>cyan_bt</td><td>cyan_bbt</td><td><img src="./img/cyan_bright.png" width="20" height="20" /></td></tr>
-    <tr><td>white_bt</td><td>white_bbt</td><td><img src="./img/white_bright.png" width="20" height="20" /></td></tr>
+    <tr>
+      <td>black</td><td>black_b</td><td><img src="./img/black.png" width="20" height="20" /></td>
+      <td>black_bt</td><td>black_bbt</td><td><img src="./img/black_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>red</td><td>red_b</td><td><img src="./img/red.png" width="20" height="20" /></td>
+      <td>red_bt</td><td>red_bbt</td><td><img src="./img/red_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>green</td><td>green_b</td><td><img src="./img/green.png" width="20" height="20" /></td>
+      <td>green_bt</td><td>green_bbt</td><td><img src="./img/green_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>yellow</td><td>yellow_b</td><td><img src="./img/yellow.png" width="20" height="20" /></td>
+      <td>yellow_bt</td><td>yellow_bbt</td><td><img src="./img/yellow_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>blue</td><td>blue_b</td><td><img src="./img/blue.png" width="20" height="20" /></td>
+      <td>blue_bt</td><td>blue_bbt</td><td><img src="./img/blue_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>magenta</td><td>magenta_b</td><td><img src="./img/magenta.png" width="20" height="20" /></td>
+      <td>magenta_bt</td><td>magenta_bbt</td><td><img src="./img/magenta_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>cyan</td><td>cyan_b</td><td><img src="./img/cyan.png" width="20" height="20" /></td>
+      <td>cyan_bt</td><td>cyan_bbt</td><td><img src="./img/cyan_bright.png" width="20" height="20" /></td>
+    </tr>
+    <tr>
+      <td>white</td><td>white_b</td><td><img src="./img/white.png" width="20" height="20" /></td>
+      <td>white_bt</td><td>white_bbt</td><td><img src="./img/white_bright.png" width="20" height="20" /></td>
+    </tr>
   </tbody>
 </table>
 
