@@ -24,7 +24,6 @@ npm install colors-cli --save-dev
     <td style="background:cyan;">cyan</td>
     <td style="background:white;">white</td>
     <td style="background:aqua;">aqua</td>
-    <td> - </td>
   </tr>
   <tr>
     <td>background-color</td>
@@ -37,7 +36,6 @@ npm install colors-cli --save-dev
     <td style="background:cyan;">cyan_bg</td>
     <td style="background:white;">white_bg</td>
     <td style="background:aqua;">aqua_bg</td>
-    <td> - </td>
   </tr>
   <tr>
     <td>style</td>
