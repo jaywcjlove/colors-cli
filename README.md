@@ -12,51 +12,36 @@ npm install colors-cli --save-dev
 
 # Styles
 
+`bold`、 `faint`、 `italic`、 `underline`、 `blink`、 `overline`、 `inverse`、 `conceal`、 `strike`、
+
+# Colors
+
 <table>
-  <tr>
-    <td>color</td>
-    <td style="background:black;">black</td>
-    <td style="background:red;">red</td>
-    <td style="background:green;">green</td>
-    <td style="background:yellow;">yellow</td>
-    <td style="background:blue;">blue</td>
-    <td style="background:magenta;">magenta</td>
-    <td style="background:cyan;">cyan</td>
-    <td style="background:white;">white</td>
-    <td style="background:aqua;">aqua</td>
-  </tr>
-  <tr>
-    <td>background-color</td>
-    <td style="background:black;">black_bg</td>
-    <td style="background:red;">red_bg</td>
-    <td style="background:green;">green_bg</td>
-    <td style="background:yellow;">yellow_bg</td>
-    <td style="background:blue;">blue_bg</td>
-    <td style="background:magenta;">magenta_bg</td>
-    <td style="background:cyan;">cyan_bg</td>
-    <td style="background:white;">white_bg</td>
-    <td style="background:aqua;">aqua_bg</td>
-  </tr>
-  <tr>
-    <td>style</td>
-    <td style="font-weight:bold;">bold</td>
-    <td style="">faint</td>
-    <td style="font-style:italic;">italic</td>
-    <td style="text-decoration:underline;">underline</td>
-    <td style="text-decoration: blink;">blink</td>
-    <td style="text-decoration:overline;">overline</td>
-    <td style="background:inverse;">inverse</td>
-    <td style="background:conceal;">conceal</td>
-    <td style="background:strike;">strike</td>
-  </tr>
+  <thead><th>Foreground</th><th>Background</th><th></th></thead>
+  <tbody>
+    <tr><td>black</td><td>black_bg</td><td><img src="./img/black.png" width="20" height="20" /></td></tr>
+    <tr><td>red</td><td>red_bg</td><td><img src="./img/red.png" width="20" height="20" /></td></tr>
+    <tr><td>green</td><td>green_bg</td><td><img src="./img/green.png" width="20" height="20" /></td></tr>
+    <tr><td>yellow</td><td>yellow_bg</td><td><img src="./img/yellow.png" width="20" height="20" /></td></tr>
+    <tr><td>blue</td><td>blue_bg</td><td><img src="./img/blue.png" width="20" height="20" /></td></tr>
+    <tr><td>magenta</td><td>magenta_bg</td><td><img src="./img/magenta.png" width="20" height="20" /></td></tr>
+    <tr><td>cyan</td><td>cyan_bg</td><td><img src="./img/cyan.png" width="20" height="20" /></td></tr>
+    <tr><td>white</td><td>white_bg</td><td><img src="./img/white.png" width="20" height="20" /></td></tr>
+  </tbody>
 </table>
 
 ## Basic usage:
 
+Output colored text:
+
 ```js
 var color = require('colors-cli')
 console.log( color.red('hello') )
+```
 
+Styles can be mixed:
+
+```js
 var color = require('colors-cli/safe')
 console.log( color.red.bold.underline('hello') )
 ```
