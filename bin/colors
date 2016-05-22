@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var colors = require('../');
 var args = process.argv.slice(2);
-
+var _Colors = new colors.Colors()
 
 var styles = '';
 var scripts = '';
@@ -14,9 +14,12 @@ args.filter(function (arg) {
     if (arg === '-h' || arg === '--help') {
         help = true;
     }else if(/\-\-/.test(arg)){
-        styles = arg.replace('--','').split(',').join('.');
+        styles = arg.replace('--','').split(',');
     }else{
-        scripts += eval('"'+arg +'".'+ styles+';');
+        for (var i = 0; i < styles.length; i++) {
+            _Colors.string = arg;
+            if(styles[i]) scripts = _Colors[styles[i]].valueOf();
+        }
     }
 })
 
