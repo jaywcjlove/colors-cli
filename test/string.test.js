@@ -1,17 +1,12 @@
 var toxic = require('../toxic')
 
-// console.log( "underline string".underline.red );
-// console.log( "underline string".yellow.underline );
+console.log( "underline.red.bold.yellow_bg string".underline.red.bold.yellow_bg );
+console.log( "yellow.underline string".red.underline );
 
 
-var styles = [
-  'bold', 'faint', 'italic', 'underline', 'blink', 'overline',
-  'inverse', 'conceal', 'strike'
-];
-var colors = [
-  'black', 'red', 'green', 'yellow', 'blue',
-  'magenta', 'cyan', 'white', 'grey', 'gray'
-];
+var _styles = require('../lib/styles-name')
+var colors = _styles.colors;
+var styles = _styles.styles;
 
 
 console.log("")
