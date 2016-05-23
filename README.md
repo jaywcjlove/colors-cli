@@ -3,7 +3,7 @@
 # colors-cli
 
 
-[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli)
+[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli) [![Build Status](https://travis-ci.org/jaywcjlove/colors-cli.svg?branch=master)](https://travis-ci.org/jaywcjlove/colors-cli)
 
 Terminal string styling done right.  ಠ_ಠ 
 
@@ -94,7 +94,10 @@ console.log( 'hello'.green.black_b.underline );
 
 # ANSI 256 colors
 
-Support ANSI 256 colors. [0 - 255], The rules of method name. `x32` 、 `xb23`
+Support ANSI 256 colors. [0 - 255], The rules of method name. 
+
+ - Foreground `x32` 
+ - Background `xb32`
 
 ```js
 var color = require('colors-cli/safe')
