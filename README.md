@@ -1,6 +1,7 @@
+<img align="right" height="150" src="./img/colors-cli.png">
+
 # colors-cli
 
-<img align="right" height="150" src="./img/colors-cli.png">
 
 [![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli)
 
