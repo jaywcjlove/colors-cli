@@ -4,7 +4,7 @@
 
 [![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli)
 
-Terminal string styling done right.
+Terminal string styling done right.  ಠ_ಠ 
 
 Install with npm:
 
@@ -91,6 +91,19 @@ console.log( 'hello'.green );
 console.log( 'hello'.green.black_b.underline );
 ```
 
+# ANSI 256 colors
+
+Support ANSI 256 colors. [0 - 255], The rules of method name. `x32` 、 `xb23`
+
+```js
+var color = require('colors-cli/safe')
+console.log( color.x45.bold.underline('hello') )
+
+require('colors-cli/toxic')
+console.log( 'hello'.x23.underline );
+console.log( 'hello'.green.xb34.underline );
+```
+
 ### Use the command line
 
 ```bash
@@ -101,39 +114,18 @@ console.log( 'hello'.green.black_b.underline );
    --black  => black
    --black_b  => black_b
    --red  => red
-   --red_b  => red_b
-   --green  => green
-   --green_b  => green_b
-   --yellow  => yellow
-   --yellow_b  => yellow_b
-   --blue  => blue
-   --blue_b  => blue_b
-   --magenta  => magenta
-   --magenta_b  => magenta_b
-   --cyan  => cyan
-   --cyan_b  => cyan_b
-   --white  => white
-   --white_b  => white_b
-   --aqua  => aqua
-   --aqua_b  => aqua_b
-   --bold  => bold
-   --faint  => faint
-   --italic  => italic
-   --underline  => underline
-   --blink  => blink
-   --overline  => overline
-   --inverse  => inverse
-   --conceal  => conceal
-   --strike  => strike
+   ...
 
  Examples:
 
    colors --red "\nhello world" --bold,underline,yellow "wcj"
    colors --green,bold "\nhello world"
+   colors --x12,bold "hello world"
+
 ```
 
 
-# 参考
+# Reference
 
 - [The opaque named colors](https://drafts.csswg.org/css-color/#named-colors)
 - [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
