@@ -4,6 +4,8 @@
 
 Terminal string styling done right.
 
+<img align="right" height="150" src="./img/colors-cli.png">
+
 
 Install with npm:
 
@@ -64,6 +66,18 @@ var color = require('colors-cli')
 console.log( color.red('hello') )
 ```
 
+Best way is to predefine needed stylings and then use it:
+
+```js
+var error = color.red.bold;
+var warn = color.yellow;
+var notice = color.blue;
+console.log(error('Error!'));
+console.log(warn('Warning'));
+console.log(notice('Notice'));
+```
+
+
 Styles can be mixed:
 
 ```js
@@ -76,17 +90,6 @@ console.log( color.red.bold.underline('hello') )
 require('colors-cli/toxic')
 console.log( 'hello'.green );
 console.log( 'hello'.green.black_b.underline );
-```
-
-Best way is to predefine needed stylings and then use it:
-
-```js
-var error = clc.red.bold;
-var warn = clc.yellow;
-var notice = clc.blue;
-console.log(error('Error!'));
-console.log(warn('Warning'));
-console.log(notice('Notice'));
 ```
 
 ### Use the command line
