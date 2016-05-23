@@ -1,6 +1,6 @@
 {
   "name": "colors-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Terminal string styling done right",
   "main": "lib/index.js",
   "directories": {
@@ -14,7 +14,7 @@
       "url": "https://github.com/jaywcjlove/colors-cli.git"
   },
   "scripts": {
-    "test": "node ./test/safe.test.js && node ./test/string.test.js"
+    "test": "node ./test/safe.test.js && node ./test/string.test.js && node ./test/256.test.js"
   },
   "keywords": [
     "256color",
