@@ -23,6 +23,11 @@ args.filter(function (arg) {
     }
 })
 
+
+var _styles = require('../lib/styles-name')
+var colors_name = _styles.colors;
+var styles_name = _styles.styles;
+
 if(help){
     log('')
     log('\33[2J') //清屏
@@ -31,20 +36,92 @@ if(help){
     log(' Options:')
     log('')
 
-    Object.keys(colors.color).forEach(function(key){
-        log('   --' + key + '  => ' + eval('"'+key+'".'+key))
+    log('  1.Colors Number');
+    log();
+    for (var i = 0; i < 256; i++) {
+        if (i !== 0 && i % 16 === 0) {
+          log();
+          process.stdout.write('   ');
+        }
+        if(i === 0)process.stdout.write('   ');
+        var c = new colors.Colors(wordwrap(i));
+        c.fgcolor_x = i;
+        process.stdout.write(c.valueOf());
+    }
+    log();
+
+
+    log("")
+    log("  2.styles:")
+    log("")
+
+    styles_name.forEach(function(key) {
+        process.stdout.write("   "+key[key])
+        // log(key[key].red)
     });
 
+    log("")
+    log("")
+    log("  3.colors:")
+    log("")
+
+    colors_name.forEach(function(key) {
+        process.stdout.write("   "+key[key])
+    });
+
+    log("")
+    log("")
+    log("  4.background colors:")
+    log("")
+
+    colors_name.forEach(function(key) {
+        // process.stdout.write("  "+key[key+'_b'])
+        process.stdout.write("   "+eval( '"' +key+"_b"+ ' ".'+key+"_b"))
+    });
+
+
+    log("")
+    log("")
+    log("  5.Font Bright Color:")
+    log("")
+
+    colors_name.forEach(function(key) {
+        // process.stdout.write("  "+key[key+'_bt'])
+        process.stdout.write("   "+eval( '"' +key+"_bt"+ ' ".'+key+"_bt"))
+    });
+
+
+    log("")
+    log("")
+    log("  6.Background Bright Color:")
+    log("")
+
+    colors_name.forEach(function(key) {
+        // process.stdout.write("  "+key[key+'_bbt'])
+        process.stdout.write("   "+eval( '" ' +key+"_bbt"+ ' ".'+key+"_bbt"))
+    });
+
+
+
+    log('')
     log('')
     log(' Examples:')
     log('')
     log('   colors --red "\\nhello world" --bold,underline,yellow "wcj"')
     log('   colors --green,bold "\\nhello world"')
+    log('   colors --x12,bold "hello world"')
     log('')
     
 }else{
     log(scripts);
 }
+
+
+function wordwrap(i) {
+    i = String(i)
+    return i + new Array(5 - i.length).join(' ');
+}
+
 
 
 // var fs = require('fs');
