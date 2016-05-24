@@ -108,6 +108,8 @@ console.log( 'hello'.x23.underline );
 console.log( 'hello'.green.xb34.underline );
 ```
 
+<img src="./img/256_color.png"/>
+
 ### Use the command line
 
 ```bash
