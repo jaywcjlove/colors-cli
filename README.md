@@ -69,6 +69,7 @@ console.log( color.red('hello') )
 Best way is to predefine needed stylings and then use it:
 
 ```js
+var color = require('colors-cli/safe')
 var error = color.red.bold;
 var warn = color.yellow;
 var notice = color.blue;
