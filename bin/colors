@@ -5,6 +5,7 @@ var _Colors = new colors.Colors()
 
 var styles = '';
 var scripts = '';
+var output = '';
 var help = false;
 var log = console.log;
 
@@ -20,6 +21,7 @@ args.filter(function (arg) {
             _Colors.string = arg;
             if(styles[i]) scripts = _Colors[styles[i]].valueOf();
         }
+        output += scripts;
     }
 })
 
@@ -113,7 +115,7 @@ if(help){
     log('')
     
 }else{
-    log(scripts);
+    log(output);
 }
 
 
