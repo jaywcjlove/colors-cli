@@ -23,14 +23,17 @@ args.filter(function (arg) {
     }
     output += scripts;
   }
-})
+});
 
+if (args && args.length === 0) {
+  help= true;
+}
 
 var _styles = require('../lib/styles-name')
 var colors_name = _styles.colors;
 var styles_name = _styles.styles;
 
-if(help){
+if (help) {
   log('')
   log('\33[2J') // 清屏
   log(' Usage: colors')
