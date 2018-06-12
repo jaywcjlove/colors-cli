@@ -117,7 +117,10 @@ Styles can be mixed:
 
 ```js
 var color = require('colors-cli/safe')
-console.log( color.red.bold.underline('hello') )
+console.log('=>', color.red.bold.underline('hello') )
+console.log('=>', color.magenta_bt.underline('hello ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r') + 'ld') + ' !!!!'));
+console.log('=>', color.magenta_bt.underline('hello ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r'))));
+console.log('=>', color.magenta_bt.underline('hello ' + color.blue_bt('world') + ' !!!!' + color.yellow('kenny') + ' wong' ));
 ```
 
 
@@ -162,7 +165,6 @@ console.log( 'hello'.green.xb34.underline );
    colors --red "\nhello world" --bold,underline,yellow "wcj"
    colors --green,bold "\nhello world"
    colors --x12,bold "hello world"
-
 ```
 
 
@@ -174,7 +176,7 @@ console.log( 'hello'.green.xb34.underline );
 
 The [ANSI Escape](https://en.wikipedia.org/wiki/ANSI_escape_code) sequences control code screen.
 
-```
+```bash
 echo -e "\033[31;41;4m something here 33[0m"
 ```
 
@@ -182,3 +184,4 @@ echo -e "\033[31;41;4m something here 33[0m"
 `[` The beginning of the CSI.  
 `m` Make the action to be performed.  
 `;` ASCII code separator.  
+
