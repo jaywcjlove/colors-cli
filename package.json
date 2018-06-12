@@ -14,7 +14,7 @@
       "url": "https://github.com/jaywcjlove/colors-cli.git"
   },
   "scripts": {
-    "test": "node ./test/safe.test.js && node ./test/string.test.js && node ./test/256.test.js"
+    "test": "node ./test/safe.test.js & node ./test/group.test.js && node ./test/toxic.test.js && node ./test/256.test.js"
   },
   "keywords": [
     "256color",
