@@ -1,6 +1,6 @@
 {
   "name": "colors-cli",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Terminal string styling done right",
   "main": "lib/index.js",
   "directories": {
@@ -23,7 +23,23 @@
     "colors-cli",
     "terminal",
     "ansi",
-    "console"
+    "console",
+    "colour",
+    "cli",
+    "string",
+    "str",
+    "style",
+    "styles",
+    "tty",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
   ],
   "author": "kenny wang <wowohoo@qq.com>",
   "license": "MIT"
