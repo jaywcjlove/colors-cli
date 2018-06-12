@@ -1,4 +1,6 @@
 var Color = require('..').Colors;
+
+
 console.log();
 console.log();
 console.log(' System colors');
@@ -11,6 +13,7 @@ for (var i = 0; i < 16; i++) {
     if (i === 8) process.stdout.write(' ');
     process.stdout.write(c.valueOf());
 }
+
 console.log();
 console.log();
 console.log();
@@ -59,3 +62,5 @@ function wordwrap(i) {
     i = String(i)
     return i + new Array(5 - i.length).join(' ');
 }
+
+console.log();
