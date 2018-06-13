@@ -1,8 +1,12 @@
 var color = require('../safe');
+require('../toxic')
 
 var _styles = require('../lib/styles-name')
 var colors = _styles.colors;
 // var styles = _styles.styles;
+
+console.log('\n\n  $'.green + ' npm '.magenta + 'install '.yellow + 'colors-cli'.cyan + ' --save-dev');
+console.log('  ' + color.underline('$ ' + 'npm'.magenta.underline + ' install'.yellow.underline + ' colors-cli --save-dev'));
 
 var str = '"\\n  Font Bright Color:\\n\\n  " + ';
 
