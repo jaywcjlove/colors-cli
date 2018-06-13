@@ -112,7 +112,6 @@ console.log(warn('Warning'));
 console.log(notice('Notice'));
 ```
 
-
 Styles can be mixed:
 
 ```js
@@ -121,6 +120,8 @@ console.log('=>', color.red.bold.underline('hello') )
 console.log('=>', color.magenta_bt.underline('hello ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r') + 'ld') + ' !!!!'));
 console.log('=>', color.magenta_bt.underline('hello ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r'))));
 console.log('=>', color.magenta_bt.underline('hello ' + color.blue_bt('world') + ' !!!!' + color.yellow('kenny') + ' wong' ));
+console.log('=> $'.green + ' npm '.magenta + 'install '.yellow + 'colors-cli'.cyan + ' --save-dev');
+console.log('=> ' + color.underline('$ ' + 'npm'.magenta.underline + ' install'.yellow.underline + ' colors-cli --save-dev'));
 ```
 
 
