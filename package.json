@@ -1,6 +1,6 @@
 {
   "name": "colors-cli",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Terminal string styling done right",
   "main": "lib/index.js",
   "directories": {
