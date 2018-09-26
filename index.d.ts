@@ -1,35 +1,33 @@
 export interface Color {
   (text: string): string;
 
-  bold_bbt: Color;
-  faint_bbt: Color;
-  italic_bbt: Color;
-  underline_bbt: Color;
-  blink_bbt: Color;
-  overline_bbt: Color;
-  inverse_bbt: Color;
-  conceal_bbt: Color;
-  strike_bbt: Color;
 
-  bold_bt: Color;
-  faint_bt: Color;
-  italic_bt: Color;
-  underline_bt: Color;
-  blink_bt: Color;
-  overline_bt: Color;
-  inverse_bt: Color;
-  conceal_bt: Color;
-  strike_bt: Color;
+  black_bbt: Color;
+  red_bbt: Color;
+  green_bbt: Color;
+  yellow_bbt: Color;
+  blue_bbt: Color;
+  magenta_bbt: Color;
+  cyan_bbt: Color;
+  white_bbt: Color;
 
-  bold_b: string;
-  faint_b: string;
-  italic_b: string;
-  underline_b: string;
-  blink_b: string;
-  overline_b: string;
-  inverse_b: string;
-  conceal_b: string;
-  strike_b: string;
+  black_bt: Color;
+  red_bt: Color;
+  green_bt: Color;
+  yellow_bt: Color;
+  blue_bt: Color;
+  magenta_bt: Color;
+  cyan_bt: Color;
+  white_bt: Color;
+
+  black_b: Color;
+  red_b: Color;
+  green_b: Color;
+  yellow_b: Color;
+  blue_b: Color;
+  magenta_b: Color;
+  cyan_b: Color;
+  white_b: Color;
 
   black: Color;
   red: Color;
@@ -39,37 +37,44 @@ export interface Color {
   magenta: Color;
   cyan: Color;
   white: Color;
+
+  bold: Color;
+  faint: Color;
+  italic: Color;
+  underline: Color;
+  blink: Color;
+  overline: Color;
+  inverse: Color;
+  conceal: Color;
+  strike: Color;
 }
 
-export const bold_bbt: Color;
-export const faint_bbt: Color;
-export const italic_bbt: Color;
-export const underline_bbt: Color;
-export const blink_bbt: Color;
-export const overline_bbt: Color;
-export const inverse_bbt: Color;
-export const conceal_bbt: Color;
-export const strike_bbt: Color;
+export const black_bbt: Color;
+export const red_bbt: Color;
+export const green_bbt: Color;
+export const yellow_bbt: Color;
+export const blue_bbt: Color;
+export const magenta_bbt: Color;
+export const cyan_bbt: Color;
+export const white_bbt: Color;
 
-export const bold_bt: Color;
-export const faint_bt: Color;
-export const italic_bt: Color;
-export const underline_bt: Color;
-export const blink_bt: Color;
-export const overline_bt: Color;
-export const inverse_bt: Color;
-export const conceal_bt: Color;
-export const strike_bt: Color;
+export const black_bt: Color;
+export const red_bt: Color;
+export const green_bt: Color;
+export const yellow_bt: Color;
+export const blue_bt: Color;
+export const magenta_bt: Color;
+export const cyan_bt: Color;
+export const white_bt: Color;
 
-export const bold_b: Color;
-export const faint_b: Color;
-export const italic_b: Color;
-export const underline_b: Color;
-export const blink_b: Color;
-export const overline_b: Color;
-export const inverse_b: Color;
-export const conceal_b: Color;
-export const strike_b: Color;
+export const black_b: Color;
+export const red_b: Color;
+export const green_b: Color;
+export const yellow_b: Color;
+export const blue_b: Color;
+export const magenta_b: Color;
+export const cyan_b: Color;
+export const white_b: Color;
 
 export const black: Color;
 export const red: Color;
@@ -80,38 +85,55 @@ export const magenta: Color;
 export const cyan: Color;
 export const white: Color;
 
+export const bold: Color;
+export const faint: Color;
+export const italic: Color;
+export const underline: Color;
+export const blink: Color;
+export const overline: Color;
+export const inverse: Color;
+export const conceal: Color;
+export const strike: Color;
+
+
 declare global {
   interface String {
 
-    bold_bbt: string;
-    faint_bbt: string;
-    italic_bbt: string;
-    underline_bbt: string;
-    blink_bbt: string;
-    overline_bbt: string;
-    inverse_bbt: string;
-    conceal_bbt: string;
-    strike_bbt: string;
+    black_bbt: string;
+    red_bbt: string;
+    green_bbt: string;
+    yellow_bbt: string;
+    blue_bbt: string;
+    magenta_bbt: string;
+    cyan_bbt: string;
+    white_bbt: string;
 
-    bold_bt: string;
-    faint_bt: string;
-    italic_bt: string;
-    underline_bt: string;
-    blink_bt: string;
-    overline_bt: string;
-    inverse_bt: string;
-    conceal_bt: string;
-    strike_bt: string;
+    black_bt: string;
+    red_bt: string;
+    green_bt: string;
+    yellow_bt: string;
+    blue_bt: string;
+    magenta_bt: string;
+    cyan_bt: string;
+    white_bt: string;
 
-    bold_b: string;
-    faint_b: string;
-    italic_b: string;
-    underline_b: string;
-    blink_b: string;
-    overline_b: string;
-    inverse_b: string;
-    conceal_b: string;
-    strike_b: string;
+    black_b: string;
+    red_b: string;
+    green_b: string;
+    yellow_b: string;
+    blue_b: string;
+    magenta_b: string;
+    cyan_b: string;
+    white_b: string;
+
+    black: string;
+    red: string;
+    green: string;
+    yellow: string;
+    blue: string;
+    magenta: string;
+    cyan: string;
+    white: string;
 
     // @ts-ignore
     bold: string;
