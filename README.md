@@ -27,66 +27,66 @@ npm install colors-cli --save-dev
     <tr>
       <td>black</td>
       <td>black_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/black.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/black.png?sanitize=true" width="20" height="20" /></td>
       <td>black_bt</td>
       <td>black_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/black_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/black_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>red</td>
       <td>red_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/red.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/red.png?sanitize=true" width="20" height="20" /></td>
       <td>red_bt</td>
       <td>red_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/red_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/red_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>green</td>
       <td>green_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/green.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/green.png?sanitize=true" width="20" height="20" /></td>
       <td>green_bt</td>
       <td>green_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/green_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/green_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>yellow</td>
       <td>yellow_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/yellow.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/yellow.png?sanitize=true" width="20" height="20" /></td>
       <td>yellow_bt</td>
       <td>yellow_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/yellow_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/yellow_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>blue</td>
       <td>blue_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/blue.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/blue.png?sanitize=true" width="20" height="20" /></td>
       <td>blue_bt</td>
       <td>blue_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/blue_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/blue_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>magenta</td>
       <td>magenta_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/magenta.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/magenta.png?sanitize=true" width="20" height="20" /></td>
       <td>magenta_bt</td>
       <td>magenta_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/magenta_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/magenta_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>cyan</td>
       <td>cyan_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/cyan.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/cyan.png?sanitize=true" width="20" height="20" /></td>
       <td>cyan_bt</td>
       <td>cyan_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/cyan_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/cyan_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
     <tr>
       <td>white</td>
       <td>white_b</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/white.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/white.png?sanitize=true" width="20" height="20" /></td>
       <td>white_bt</td>
       <td>white_bbt</td>
-      <td><img src="https://raw.githubusercontent.com/jaywcjlove/colors-cli/HEAD/img/white_bright.png?sanitize=true" width="20" height="20" /></td>
+      <td><img src="img/white_bright.png?sanitize=true" width="20" height="20" /></td>
     </tr>
   </tbody>
 </table>
