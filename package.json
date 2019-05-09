@@ -14,7 +14,6 @@
     "url": "https://github.com/jaywcjlove/colors-cli.git"
   },
   "scripts": {
-    "release": "release-it --src.tagName='v%s'",
     "test": "node ./test/safe.test.js & node ./test/group.test.js && node ./test/toxic.test.js && node ./test/256.test.js"
   },
   "keywords": [
@@ -43,8 +42,5 @@
     "text"
   ],
   "author": "kenny wang <wowohoo@qq.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "release-it": "^7.4.7"
-  }
+  "license": "MIT"
 }
