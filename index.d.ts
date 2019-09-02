@@ -1,5 +1,6 @@
 import { Color } from './lib/color';
 
+
 export const black_bbt: Color;
 export const red_bbt: Color;
 export const green_bbt: Color;
