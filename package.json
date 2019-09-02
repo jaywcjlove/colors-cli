@@ -1,6 +1,6 @@
 {
   "name": "colors-cli",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Terminal string styling done right",
   "main": "lib/index.js",
   "directories": {
@@ -42,8 +42,5 @@
     "text"
   ],
   "author": "kenny wang <wowohoo@qq.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/jquery": "^3.3.31"
-  }
+  "license": "MIT"
 }
