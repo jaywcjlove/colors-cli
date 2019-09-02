@@ -16,9 +16,11 @@ console.log('  =>', color.magenta_bbt('hello'));
 console.log('  =>', color.magenta('hello'));
 console.log('  =>', color.magenta_bt('hello'));
 // 文字颜色 + 背景色
-console.log('  =>', color.magenta_bt.underline('hello ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r') + 'ld') + ' !!!!'));
-console.log('  =>', color.magenta_bt.underline('hello ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r'))));
-console.log('  =>', color.magenta_bt.underline('hello ' + color.blue_bt('world') + ' !!!!' + color.yellow('kenny') + ' wong' ));
+console.log('  =>', color.magenta_bt.underline('hello1  !!!!'));
+console.log('  =>', color.magenta_bbt.underline('hello1  !!!!'));
+console.log('  =>', color.magenta.underline('hello1  !!!!'));
+console.log('  =>', color.magenta_bt.underline('hello2 ' + color.blue_bt('wo' + color.yellow_bt.magenta_bbt('r'))));
+console.log('  =>', color.magenta_bt.underline('hello3 ' + color.blue_bt('world') + ' !!!!' + color.yellow('kenny') + ' wong' ));
 
 
 console.log();

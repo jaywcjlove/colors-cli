@@ -31,7 +31,7 @@ colors.forEach(function(key) {
 
 console.log("")
 console.log("")
-console.log(" background colors:")
+console.log(" Background colors:")
 console.log("")
 
 colors.forEach(function(key) {
