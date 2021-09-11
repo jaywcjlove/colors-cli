@@ -13,6 +13,7 @@ jobs:
       with:
         node-version: 14
 
+    - run: npm run test
     - run: npm install @jsdevtools/npm-publish -g
     - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
 
@@ -35,7 +36,6 @@ jobs:
 
     - name: Create Release
       uses: ncipollo/release-action@v1
-      if: steps.create_tag.outputs.successful
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         name: ${{ steps.create_tag.outputs.version }}
