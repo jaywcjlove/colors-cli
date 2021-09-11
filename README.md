@@ -2,8 +2,7 @@
 
 # colors-cli
 
-
-[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli) [![Build Status](https://travis-ci.org/jaywcjlove/colors-cli.svg?branch=master)](https://travis-ci.org/jaywcjlove/colors-cli)
+[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli) [![build](https://github.com/jaywcjlove/colors-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/colors-cli/actions/workflows/ci.yml)
 
 Terminal string styling done right.  ಠ_ಠ 
 
@@ -189,3 +188,6 @@ echo -e "\033[31;41;4m something here 33[0m"
 `m` Make the action to be performed.  
 `;` ASCII code separator.  
 
+# License
+
+Licensed under the MIT License.
