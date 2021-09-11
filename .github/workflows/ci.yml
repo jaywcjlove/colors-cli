@@ -1,11 +1,11 @@
-name: Build & Deploy
+name: build
 on:
   push:
     branches:
       - master
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
