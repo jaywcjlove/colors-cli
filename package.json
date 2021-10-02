@@ -2,6 +2,7 @@
   "name": "colors-cli",
   "version": "1.0.28",
   "description": "Terminal string styling done right",
+  "homepage": "https://jaywcjlove.github.io/colors-cli/",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
