@@ -1,4 +1,5 @@
 import { Color } from './lib/color';
 
-
-interface String extends Color {}
+declare global {
+  interface String extends Color {}
+}
