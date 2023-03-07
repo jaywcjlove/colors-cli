@@ -4,6 +4,12 @@
   "description": "Terminal string styling done right",
   "homepage": "https://jaywcjlove.github.io/colors-cli/",
   "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./index": "./lib/index.js",
+    "./safe": "./safe.js",
+    "./toxic": "./safe.js"
+  },
   "directories": {
     "test": "test"
   },
