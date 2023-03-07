@@ -7,7 +7,7 @@
   "exports": {
     ".": "./lib/index.js",
     "./index": "./lib/index.js",
-    "./color": "./color.js",
+    "./color": "./lib/color.js",
     "./safe": "./safe.js",
     "./toxic": "./toxic.js"
   },
