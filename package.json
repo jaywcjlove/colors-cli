@@ -7,8 +7,9 @@
   "exports": {
     ".": "./lib/index.js",
     "./index": "./lib/index.js",
+    "./color": "./color.js",
     "./safe": "./safe.js",
-    "./toxic": "./safe.js"
+    "./toxic": "./toxic.js"
   },
   "directories": {
     "test": "test"
