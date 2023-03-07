@@ -12,6 +12,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
+        registry-url: 'https://registry.npmjs.org'
 
     - run: mkdir -p build
     - run: cp -rp img build
@@ -25,8 +26,12 @@ jobs:
         publish_dir: ./build
 
     - run: npm run test
-    - run: npm install @jsdevtools/npm-publish -g
-    - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
+
+    - run: npm publish
+      name: colors-cli
+      continue-on-error: true
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - name: Is a tag created auto?
       id: create_tag
