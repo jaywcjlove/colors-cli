@@ -9,6 +9,8 @@
     "./index": "./lib/index.js",
     "./color": "./lib/color.js",
     "./lib/color.js": "./lib/color.js",
+    "./styles-name.js": "./lib/styles-name.js.js",
+    "./lib/styles-name.js.js": "./lib/styles-name.js.js",
     "./safe": "./safe.js",
     "./safe.js": "./safe.js",
     "./toxic.js": "./toxic.js",
