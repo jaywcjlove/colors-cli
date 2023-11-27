@@ -11,26 +11,26 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
-        node-version: 16
+        node-version: 18
         registry-url: 'https://registry.npmjs.org'
 
-    - run: mkdir -p build
-    - run: cp -rp img build
-    - run: npm i markdown-to-html-cli -g
-    - run: markdown-to-html --output build/index.html
+    - name: Create idoc config.
+      run: |
+        cat > idoc.yml << EOF
+        site: "Colors CLI {{version}}"
+        menus:
+          Sponsor: https://jaywcjlove.github.io/#/sponsor
+        EOF
 
-    - name: Converts Markdown to HTML
-      uses: jaywcjlove/markdown-to-html-cli@main
-      with:
-        source: README.md
-        output: build/index.html
-        github-corners: https://github.com/jaywcjlove/colors-cli
+    - run: npm install idoc@1.27.2 -g
+    - run: idoc
+    - run: cp -rp img dist
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+        publish_dir: ./dist
 
     - run: npm run test
 

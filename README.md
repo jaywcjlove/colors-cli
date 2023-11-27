@@ -2,7 +2,10 @@
 
 # colors-cli
 
-[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli) [![build](https://github.com/jaywcjlove/colors-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/colors-cli/actions/workflows/ci.yml) [![NPM Downloads](https://img.shields.io/npm/dm/colors-cli.svg?style=flat)](https://www.npmjs.com/package/colors-cli)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/colors-cli)
+[![build](https://github.com/jaywcjlove/colors-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/colors-cli/actions/workflows/ci.yml)
+[![NPM Downloads](https://img.shields.io/npm/dm/colors-cli.svg?style=flat)](https://www.npmjs.com/package/colors-cli)
 
 
 Terminal string styling done right.  ಠ_ಠ 

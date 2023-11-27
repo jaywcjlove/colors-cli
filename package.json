@@ -3,6 +3,7 @@
   "version": "1.0.32",
   "description": "Terminal string styling done right",
   "homepage": "https://jaywcjlove.github.io/colors-cli/",
+  "funding": "https://jaywcjlove.github.io/#/sponsor",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
